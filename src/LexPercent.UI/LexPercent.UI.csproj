@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LexPercent.Core\LexPercent.Core.csproj" />
+    <ProjectReference Include="..\LexPercent.Domain\LexPercent.Domain.csproj" />
+    <ProjectReference Include="..\LexPercent.Storage\LexPercent.Storage.csproj" />
+    <ProjectReference Include="..\LexPercent.Documents\LexPercent.Documents.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <Version>0.1.4</Version>
+    <Product>LexPercent Pro</Product>
+    <AssemblyName>LexPercentPro</AssemblyName>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="12.1.2" />
+    <PackageReference Include="Avalonia.Desktop" Version="12.1.2" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="12.1.2" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="12.1.2" />
+    <PackageReference Include="PDFtoImage" Version="5.4.0" />
+  </ItemGroup>
+
+</Project>
