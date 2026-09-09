@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LexPercent.Core/LexPercent.Core.csproj" />
+    <Project Path="src/LexPercent.Documents/LexPercent.Documents.csproj" />
+    <Project Path="src/LexPercent.Domain/LexPercent.Domain.csproj" />
+    <Project Path="src/LexPercent.Storage/LexPercent.Storage.csproj" />
+    <Project Path="src/LexPercent.UI/LexPercent.UI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LexPercent.Tests/LexPercent.Tests.csproj" />
+  </Folder>
+</Solution>

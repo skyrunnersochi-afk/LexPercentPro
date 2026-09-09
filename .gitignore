@@ -427,3 +427,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Local distributions
+artifacts/
+
+# User calculations and local recovery data
+*.lpp
+*.lpp.bak
+*.tmp
+cbr-rates.json
+settings.json
+outputs/
